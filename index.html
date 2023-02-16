@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dhanu portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="file:///C:/Users/DHANU%20DAS/Desktop/images/favicon.png">
+    <script src="https://kit.fontawesome.com/037026036b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="file:///C:/Users/DHANU%20DAS/Desktop/images/logo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Dhanu</span><br>Das from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ......About...... -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="file:///C:/Users/DHANU%20DAS/Desktop/images/user.jpg" />
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am student currently pursueing Bachelor of Technology in Electronics and Communication from National Institute of Technology Silchar.I am a keen learner always focus to learn something new and want to update my skils and want to adjust with modern Technology
+                        .
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab( 'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Developer</span><br />Designing Web/App interfaces
+                            </li>
+                            <li>
+                                <span>Keen Learner</span><br />Always try to update my Skills
+                            </li>
+                            <li>
+                                <span>Competitive Programmer</span><br />Coding in Codechef and Leetcode
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2021 - current</span><br />Web Development designing by myself in NIT Silchar
+                            </li>
+                            <li>
+                                <span>2018 - 2020</span><br />Learn the C++ programming language in JNV Pailapool Cachar Assam
+                            </li>
+                            <li>
+                                <span>2013 - 2018</span><br />Good Student in JNV Pailapool, always focus on developing my personality
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2018</span><br />AISSE qualified from CBSE board with 94%
+                            </li>
+                            <li>
+                                <span>2020</span><br />AISSCE qualified from CBSE board with 79%
+                            </li>
+                            <li>
+                                <span>2021</span><br />IIT-JEE coaching completed from CSRL Super-30
+                            </li>
+                            <li>
+                                <span>2021 - 2025</span><br />Pursueing B.Tech in ECE from NIT Silchar
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ........services....... -->
+    <div>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="serviceslist">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>
+                            Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining
+                            content on a web page.
+                        </p>
+                        <a href="#">Learn more</a>
+
+                    </div>
+                    <div>
+
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Competitive programming</h2>
+                        <p>
+                            Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. Contestants are referred to as sport programmers.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Keen Learner</h2>
+                        <p>
+                            Keen Learners transforming lives through the power of online tuition. They help to boost student's confidence level and improve their marks.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ........portfolio...... -->
+        <div>
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="file:///C:/Users/DHANU%20DAS/Desktop/images/work-1.png">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>The App will connect the you the talented people around the world.Download the app from paly store.</p>
+                                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="file:///C:/Users/DHANU%20DAS/Desktop/images/work-2.png">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>The App will connect the you the talented people around the world.Download the app from paly store.</p>
+                                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="file:///C:/Users/DHANU%20DAS/Desktop/images/work-3.png">
+                            <div class="layer">
+                                <h3>Online Shopping App</h3>
+                                <p>The App will connect the you the talented people around the world.Download the app from paly store.</p>
+                                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+        </div>
+        <!-- .........contact......... -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i> dhanudas035@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i> 7086094482 / 8099844694</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/dhanudas2002/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                        <a href="file:///C:/Users/DHANU%20DAS/Downloads/My%20CV.docx" download class="btn btn2"> Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ Dhanu. Made with <i class="fa-solid fa-heart"></i> by Dhanu Group of Industry</p>
+            </div>
+
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbydciWs1Z0UR9vq1AMqc8ib9FN7anw1zLhqp4Al3qdGFK7FtSCvLk7mCyguxN2niU9j/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message send successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>

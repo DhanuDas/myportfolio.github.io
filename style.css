@@ -17,7 +17,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url("file:///C:/Users/DHANU%20DAS/Desktop/images/background.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -383,7 +383,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url("file:///C:/Users/DHANU%20DAS/Desktop/images/background.jpg");
+        background-image: url("background.jpg");
     }
     .header-tex {
         margin-top: 100%;
